@@ -1,0 +1,256 @@
+/**************  GENERAL **********************/
+
+* {
+   font-family: 'Domine', serif;
+}
+
+
+
+/************** HEADER ********************/
+
+
+.p-header {
+   font-size: 12px;
+}
+
+.invite-link {
+   font-weight: 900;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0;
+    align-items: center;
+    width: 100%;
+   
+}
+
+.logo {
+    max-width: 35px;
+    max-height: 35px;
+}
+
+a {
+    color: #0b0d0a;
+    background-color: #52ff38;
+    padding: 8px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+/******************* FORM ****************************/
+
+.cp {
+    font-size: 54px;
+    color: #52ff38;
+}
+
+.sottotitolo1 {
+    font-size: 22px;
+}
+
+.first-section {
+    display: block;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.formcon {
+    background-color: #181c2e;
+    width: 100%;
+    min-height: 600px;
+    color: #fff;
+    padding-top: 40px;
+}
+
+.subscribe {
+    padding-bottom: 15px;
+    text-align:center;
+}
+
+#form {
+    padding-top: 40px;
+}
+
+.form-example {
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form-item {
+   margin-left: 15px;
+}
+
+.form-send {
+   margin-left: 15px;
+}
+
+/********************* SECTION ***************************/
+
+.section-title {
+   text-align: center;
+   font-size: 32px;
+   padding: 60px 0 20px;
+   margin-top: 0;
+}
+
+.container {
+    background: #5a05c9e8;
+    color: #fff;
+    margin: 0;
+    min-height: 600px;
+    width: 100%;
+}
+
+.box {
+    display: inline-block;
+    width: 32%;
+    background: #000;
+    text-align: center;
+    padding: 35px 0;
+    margin: 0 0.5%;
+    font-size: 28px;
+    border-radius: 8%;
+    transition: 0.1s;
+}
+
+.p-box {
+   font-size: 16px;
+   color: #52ff38;
+   font-weight: 900;
+   padding-top: 40px;
+}
+
+.box:hover {
+   box-shadow: 0px 10px 13px -7px #000000, 0px 0px 25px 8px rgba(255,255,255,0.8); 
+   box-shadow: 0px 10px 13px -7px #000000, 0px 0px 25px 8px rgba(255,255,255,0.8);
+}
+/****************** FOOTER ********************/
+
+.sticky {
+   position: sticky;
+   background: #3bf31e;
+   color:#000;
+   font-weight: bolder;
+   text-align:center;
+   padding: 8px 0;
+   width: 100%;
+}
+
+.copyright {
+   background: #0b0d0a;
+   color: #fff;
+   padding: 6px 0;
+   text-align: center;
+   width: 100%;
+}
+
+
+/******************* INVITE PAGE ***********************/
+
+#invite-body {
+   background: #181c2e;
+}
+
+.griglia {
+   background-color: #181c2e;
+   margin-top: 50px;
+}
+
+.foto {
+   width: 32%;
+   height: 32%;
+   margin: 0.5%;
+   transition: 0.2s;
+}
+
+.copyright2 {
+   background: #1f0497;
+   color: #fff;
+   padding: 6px 0;
+   text-align: center;
+}
+
+.foto:hover {
+   transform: scale(0.9);
+   opacity: 0.7;
+}
+
+/******************* MEDIA QUERIES **************************/
+
+@media screen and (max-device-width: 576px) {
+
+   /**************** HEADER *******************/
+
+   .p-header {
+      font-size: 30px;
+   }
+   
+   .invite-link {
+      font-weight: 900;
+      font-size: 28px;
+      padding: 12px;
+   }
+   
+   header {
+       position: fixed;
+       top: 0;
+       left: 0;
+       right: 0;
+       height: 150px;
+       background: transparent;
+       color: #fff;
+       display: flex;
+       justify-content: space-evenly;
+       margin-top: 0;
+       align-items: center;
+       width: 100%;
+      
+   }
+   
+   .logo {
+       max-width: 80px;
+       max-height: 80px;
+   }
+   
+   a {
+       color: #0b0d0a;
+       background-color: #52ff38;
+       padding: 8px;
+       font-size: 24px;
+       text-decoration: none;
+       font-weight: 600;
+   }
+
+
+   /*************** INVITE PAGE **************/
+
+   .griglia {
+      display: grid;
+      margin-top: 90px;
+   }
+
+   .foto {
+      width: 90%;
+      height: 90%;
+      margin: auto;
+   }
+
+   .copyright2 {
+      padding: 20px;
+      font-size: 32px;
+   }
+}
